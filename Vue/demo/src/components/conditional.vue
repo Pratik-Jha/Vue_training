@@ -4,7 +4,7 @@
   <button v-on:click="show = !show">Change</button>
   <hr />
   <h3>Showing data using looping statement.</h3>
-  <ul >
+  <ul>
     <li v-for="item in technology" :key="item">{{ item }}</li>
   </ul>
   <ul>
