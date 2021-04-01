@@ -1,4 +1,9 @@
 <template>
+<div>
+  <slot name="header"></slot>
+  <slot name="footer">Footer</slot>
+</div>
+
   <h5 v-if="show">If</h5>
   <h5 v-else>Else</h5>
   <button v-on:click="show = !show">Change</button>
